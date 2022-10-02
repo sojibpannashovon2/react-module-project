@@ -4,4 +4,40 @@
     font-weight: 600;
     font-size: larger;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: sticky;
+    top: 0;
+    gap: 300px;
+
+}
+
+.cart-indi-info {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.cart-button {
+    display: grid;
+    grid-template-columns: repeat(1fr, 1fr);
+    gap: 40px;
+    padding: 20px;
+}
+
+.cart-button-info {
+    padding: 15px;
+    background-color: rgba(247, 113, 140, 0.615);
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 700;
+    width: 80%;
+    margin: auto;
+    margin-left: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cart-button-info:hover {
+    background-color: aliceblue;
 }
