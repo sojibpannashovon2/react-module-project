@@ -1,0 +1,38 @@
+.product-image img {
+    height: 280px;
+    width: 200px;
+    width: fit-content;
+    border-radius: 20px;
+    /* margin-left: 10px; */
+    margin-bottom: 0%;
+
+}
+
+.product-button {
+    width: 100%;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.products {
+    border-radius: 20px;
+    position: relative;
+}
+
+.product-info {
+    margin-left: 20px;
+    font-size: large;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.product-button:hover {
+    background-color: orange;
+}

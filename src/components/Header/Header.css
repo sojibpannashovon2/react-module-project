@@ -1,0 +1,26 @@
+.header {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+    margin-bottom: 20px;
+
+
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 30px;
+    color: aliceblue;
+}
+
+.header a:hover {
+    color: red;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 10px;
+}
