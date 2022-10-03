@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { addToDb } from '../../utilities/fakedb';
 import Cart from '../Cart/Cart';
 import Products from '../Products/Products';
 
@@ -21,6 +22,7 @@ const Shop = () => {
         console.log(product);
         const newCart = [...cart, product];
         setCart(newCart);
+        addToDb(product.id);
     }
     return (
         <div className='main-product-container' style={{ border: '2px solid black' }}>
